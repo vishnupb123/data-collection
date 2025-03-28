@@ -40,7 +40,7 @@ except KeyError:
 today = datetime.utcnow().date()
 four_months_ago = today - timedelta(days=120)
 count = 10000
-QUERY =f"(gadgets -filter:retweets lang:en since:2024-12-01"
+QUERY =f"(quotes -filter:retweets lang:en since:2024-12-01"
 
 
 #creating a twikit client
