@@ -40,7 +40,7 @@ except KeyError:
 today = datetime.utcnow().date()
 four_months_ago = today - timedelta(days=120)
 count = 10000
-QUERY =f"(quotes -filter:retweets lang:en since:2024-12-01"
+QUERY =f"(IPL -filter:retweets lang:en since:2024-12-01"
 
 
 #creating a twikit client
@@ -63,8 +63,8 @@ async def get_tweets(tweets):
 #authenticating the client to twitter and saving cookies.
 async def main():
 
-#    await client.login(auth_info_1=username , auth_info_2=email , password=password)
-#    client.save_cookies('cookies.json')
+#  await client.login(auth_info_1='Vishnu59241802' , auth_info_2='vishnutwitter2001@gmail.com' , password='Vishnu@twitter123')
+#  client.save_cookies('cookies.json')
   client.load_cookies('cookies.json') 
 
   tweet_count = 0
