@@ -63,7 +63,7 @@ async def get_tweets(tweets):
 #authenticating the client to twitter and saving cookies.
 async def main():
 
-#  await client.login(auth_info_1='Vishnu59241802' , auth_info_2='vishnutwitter2001@gmail.com' , password='Vishnu@twitter123')
+#  await client.login(auth_info_1=username , auth_info_2=email , password=password)
 #  client.save_cookies('cookies.json')
   client.load_cookies('cookies.json') 
 
